@@ -1,0 +1,215 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {
+        "tag": "features",
+        "patterns": ["What features do you offer?", "Tell me about your features", "What can you do?"],
+        "responses": ["I can assist you with various tasks like account management, information retrieval, and general inquiries.", "My features include providing information, answering questions, and helping with common tasks."]
+      },
+      {
+        "tag": "pricing",
+        "patterns": ["What are your pricing plans?", "How much does it cost?", "Do you offer free services?"],
+        "responses": ["For information on pricing plans, please visit our website or contact our sales team.", "Our pricing plans vary based on the services you require. Please reach out to our sales team for detailed pricing information."]
+      },
+      {
+        "tag": "feedback",
+        "patterns": ["How can I provide feedback?", "I have a suggestion", "Where can I share my feedback?"],
+        "responses": ["We appreciate your feedback! You can share it through our website's feedback form or by contacting our support team.", "Your suggestions and feedback are valuable to us. You can provide them through our website or reach out to our support team."]
+      },
+      {
+        "tag": "orderstatus",
+        "patterns": ["Can you check my order status?", "Where is my order?", "I want to know the status of my order"],
+        "responses": ["Sure! Please provide your order number, and I will check the status for you.", "I can help you with that. Please share your order number, and I'll check the status."]
+      },
+      {
+        "tag": "productinformation",
+        "patterns": ["Tell me about a specific product", "What are the features of Product X?", "I need information about a product"],
+        "responses": ["Certainly! Please provide the name or code of the product you're interested in, and I'll fetch the information for you.", "I can assist you with that. Please provide the name or code of the product, and I'll provide you with the details."]
+      },
+      {
+        "tag": "payment",
+        "patterns": ["How can I make a payment?", "What are the available payment methods?", "Is online payment secure?"],
+        "responses": ["We offer multiple payment methods, including credit cards, PayPal, and bank transfers. You can choose the one that suits you best.", "We provide secure online payment options such as credit cards, PayPal, and bank transfers. Your payment details are encrypted and protected."]
+      },
+      {
+        "tag": "shipping",
+        "patterns": ["How long does shipping take?", "Do you offer international shipping?", "Can I track my package?"],
+        "responses": ["Shipping times may vary depending on your location. We offer international shipping to many countries. You can track your package using the provided tracking number.", "Shipping times depend on the destination. We do offer international shipping, and you can track your package using the tracking number provided."]
+      },
+      {
+        "tag": "cancelorder",
+        "patterns": ["I want to cancel my order", "Can I cancel my order?", "How do I cancel an order?"],
+        "responses": ["To cancel your order, please contact our support team or visit the order cancellation section on our website. They will assist you further.", "To cancel your order, you can reach out to our support team or navigate to the order cancellation page on our website."]
+      },
+      {
+        "tag": "returns",
+        "patterns": ["How do I return a product?", "What is your return policy?", "Can I get a refund?"],
+        "responses": ["For information on our return policy and initiating a return, please visit our website's returns section or contact our customer support.", "Our return policy and refund process are detailed on our website. If you have any specific questions, feel free to contact our customer support."]
+      },
+      {
+        "tag": "availability",
+        "patterns": ["Is Product X available?", "Do you have Product Y in stock?", "What products are currently in stock?"],
+        "responses": ["To check the availability of a specific product, please provide the name or code, and I'll verify it for you.", "I can assist you with that. Please provide the name or code of the product, and I'll check its availability in our inventory."]
+      },
+      {
+        "tag": "promotions",
+        "patterns": ["Are there any ongoing promotions?", "Do you have any discounts?", "Are there any special offers?"],
+        "responses": ["We have exciting promotions and discounts happening periodically. Please visit our website or subscribe to our newsletter to stay updated on the latest offers.", "Yes, we frequently run promotions and discounts. Keep an eye on our website and social media channels for the latest special offers."]
+      },
+      {
+        "tag": "account",
+        "patterns": ["How do I create an account?", "Can you help with account-related issues?", "I forgot my password. What should I do?"],
+        "responses": ["To create an account, simply click on the 'Sign Up' button on our website and follow the instructions. For account-related issues or password resets, you can contact our support team for assistance.", "To create an account, go to our website and click on 'Sign Up'. If you have any account-related issues or forgot your password, feel free to reach out to our support team."]
+      },
+      {
+        "tag": "technicalsupport",
+        "patterns": ["I'm experiencing technical issues", "Can you help with technical problems?", "My app is crashing"],
+        "responses": ["I'm sorry to hear that you're facing technical issues. Please provide more details about the problem, and I'll do my best to assist you. If needed, our technical support team can further help you troubleshoot the issue.", "I understand your frustration. Please provide specific details about the technical problem you're facing, and I'll guide you through possible solutions. If necessary, our dedicated technical support team can provide further assistance."]
+      },
+      {
+        "tag": "ordertracking",
+        "patterns": ["How can I track my order?", "Where can I find my tracking number?", "I didn't receive my tracking information"],
+        "responses": ["To track your order, you can visit the 'Order Tracking' section on our website and enter your order details. If you haven't received your tracking information, please contact our support team with your order details, and they will assist you.", "To track your order, please visit the 'Order Tracking' page on our website and enter your order details. If you haven't received the tracking information, kindly reach out to our support team with your order details."]
+      },
+      {
+        "tag": "contactinformation",
+        "patterns": ["How can I contact your customer support?", "What is your phone number?", "Do you have a live chat option?"],
+        "responses": ["You can contact our customer support team by phone at [phone number] or through our live chat option available on our website. We are available to assist you during our business hours.", "To reach our customer support, you can call us at [phone number] or use the live chat feature on our website. We are here to assist you with your inquiries."]
+      },
+      {
+        "tag": "orderconfirmation",
+        "patterns": ["How will I receive my order confirmation?", "Where can I find my order confirmation?", "I didn't receive my order confirmation email"],
+        "responses": ["Once you place an order, we will send the order confirmation to the email address associated with your account. Please check your inbox, including the spam/junk folder. If you haven't received it, please contact our support team.", "After placing an order, we send the order confirmation to the email address you provided during checkout. Kindly check your email inbox, including the spam folder. If you haven't received it, please reach out to our support team."]
+      },
+      {
+        "tag": "productrecommendation",
+        "patterns": ["Can you recommend a product for me?", "I need some product suggestions", "What are your best-selling products?"],
+        "responses": ["Certainly! To recommend a product, please let me know your preferences or the type of product you're looking for, and I'll suggest some options for you.", "I'd be happy to help you find the right product. Could you please provide more information about your preferences or the category you're interested in?"]
+      },
+      {
+        "tag": "discounts",
+        "patterns": ["Are there any current discounts?", "Can I get a discount on my purchase?", "Do you offer student discounts?"],
+        "responses": ["We frequently have discounts and promotional offers available. Please check our website or subscribe to our newsletter for the latest deals. For student discounts, we have a special program. Please provide your student ID, and I'll assist you further.", "We have ongoing discounts and special offers. To check the available discounts, please visit our website or subscribe to our newsletter. We also offer student discounts. If you have a valid student ID, you can avail of the discount."]
+      },
+      {
+        "tag": "deliverytime",
+        "patterns": ["How long will it take to deliver my order?", "When can I expect my package to arrive?", "Do you offer expedited shipping?"],
+        "responses": ["The delivery time depends on your location and the shipping method chosen. Standard delivery usually takes [X] business days. For expedited shipping, additional fees may apply. You can choose your preferred shipping method during checkout.", "The delivery time varies based on the shipping method and your location. Typically, our standard delivery takes [X] business days. If you require faster delivery, we offer expedited shipping options for an additional fee."]
+      },
+      {
+        "tag": "productusage",
+        "patterns": ["How do I use Product X?", "Can you provide instructions for Product Y?", "Is there a user manual available?"],
+        "responses": ["To assist you with using Product X, we have detailed instructions available on our website. You can also find a user manual or instructional videos for most of our products. If you need specific guidance, please let me know.", "For Product Y, you can find comprehensive usage instructions on our website. Additionally, we provide user manuals and tutorial videos for many of our products. If you require further assistance, please don't hesitate to ask."]
+      },
+      {
+        "tag": "ordermodification",
+        "patterns": ["Can I modify my order?", "I need to change the shipping address", "Can I add/remove items from my order?"],
+        "responses": ["We understand that you may need to modify your order. Please contact our support team as soon as possible with the changes you'd like to make. They will assist you in updating the shipping address or making changes to the items in your order.", "If you need to modify your order, please reach out to our support team immediately. They will help you with updating the shipping address or making any necessary changes to the items in your order."]
+      },
+      {
+        "tag": "ordercancellation",
+        "patterns": ["Can I cancel my order?", "I want to cancel my order", "Is it possible to cancel my order?"],
+        "responses": ["We understand that circumstances may change. To cancel your order, please contact our support team as soon as possible with your order details. They will guide you through the cancellation process and assist you accordingly.", "If you wish to cancel your order, please reach out to our support team with your order details. They will assist you in canceling your order and provide any necessary information regarding refunds or cancellation fees."]
+      },
+      {
+        "tag": "deliveryissues",
+        "patterns": ["My package hasn't arrived", "I received a damaged package", "There is an item missing from my order"],
+        "responses": ["We apologize for any inconvenience caused. If your package hasn't arrived within the expected delivery time, please contact our support team with your order details, and they will investigate the issue and provide a resolution.", "We apologize for the inconvenience. If you received a damaged package or if there is an item missing from your order, please reach out to our support team with your order details and any relevant photos. They will assist you in resolving the issue and arranging a replacement or refund if necessary."]
+      },
+      {
+        "tag": "subscription",
+        "patterns": ["Can I subscribe to your newsletter?", "How can I sign up for updates?", "Tell me about your subscription service"],
+        "responses": ["Absolutely! You can subscribe to our newsletter by providing your email address on our website's subscription form. Subscribers receive regular updates on new products, promotions, and exclusive offers.", "To sign up for updates, simply enter your email address in the subscription form on our website. Our newsletter subscribers enjoy early access to new products, exclusive discounts, and the latest company news."]
+      },
+      {
+        "tag": "accountdeletion",
+        "patterns": ["How do I delete my account?", "Can you help me with account deletion?", "I want to remove my account"],
+        "responses": ["To delete your account, please contact our support team with your account details and request account deletion. They will guide you through the process and ensure your account is permanently removed from our system.", "If you wish to remove your account, please reach out to our support team with your account details and request account deletion. They will provide the necessary instructions and assist you in permanently deleting your account."]
+      },
+      {
+        "tag": "sizeguide",
+        "patterns": ["Do you have a size guide?", "How do I choose the right size?", "Can you help me with sizing?"],
+        "responses": ["Yes, we have a size guide available on our website for most of our products. It provides measurements and guidance to help you choose the right size. If you need further assistance, please let me know.", "We understand that selecting the right size is important. You can find a size guide on our website, which includes measurements and tips to help you choose the appropriate size for our products. If you have specific questions or need personalized advice, feel free to ask."]
+      },
+      {
+        "tag": "orderreturn",
+        "patterns": ["How do I initiate a return?", "What is your return process?", "Can I return a product for a refund?"],
+        "responses": ["To initiate a return, please visit our website's 'Returns' section or contact our customer support. They will guide you through the return process and provide you with the necessary instructions and return shipping details.", "If you would like to return a product for a refund, please follow the instructions in our 'Returns' section on the website. Alternatively, you can reach out to our customer support team, and they will assist you with the return process and any additional information you may need."]
+      },
+      {
+        "tag": "productcustomization",
+        "patterns": ["Can I customize a product?", "Do you offer personalization options?", "Is it possible to add initials to the product?"],
+        "responses": ["Yes, we offer product customization for select items. You can personalize them by adding initials, names, or custom designs. Please check the product description or contact our customer support for more information.", "Certainly! We provide personalization options for specific products. You can add initials, names, or custom designs to make your item unique. Please refer to the product details or get in touch with our customer support for further assistance."]
+      },
+      {
+        "tag": "loyaltyprogram",
+        "patterns": ["Do you have a loyalty program?", "How can I join your rewards program?", "What are the benefits of your loyalty program?"],
+        "responses": ["Yes, we have a loyalty program for our valued customers. You can join by creating an account on our website and opting into the loyalty program. As a member, you'll enjoy exclusive benefits such as discounts, special offers, and early access to new products.", "Absolutely! We have a rewards program designed to appreciate our loyal customers. To join, simply create an account on our website and opt into the loyalty program. As a member, you'll receive various benefits including exclusive discounts, personalized offers, and priority access to new products."]
+      },
+      {
+        "tag": "giftcards",
+        "patterns": ["Do you offer gift cards?", "How can I purchase a gift card?", "Can gift cards be used for online purchases?"],
+        "responses": ["Yes, we offer gift cards that make the perfect present for any occasion. You can purchase them online on our website or in-store. Our gift cards can be used for both online and in-store purchases.", "Absolutely! We have gift cards available for purchase. You can buy them online through our website or visit one of our physical stores. Our gift cards can be used for convenient online shopping as well as in-store purchases."]
+      },
+      {
+        "tag": "accountcreation",
+        "patterns": ["How do I create an account?", "Can you help me with account registration?", "I want to sign up for an account"],
+        "responses": ["Creating an account is easy! You can click on the 'Sign Up' or 'Create Account' button on our website and follow the prompts to complete the registration process. If you need any assistance, please let me know.", "To create an account, go to our website and click on the 'Sign Up' or 'Create Account' option. Follow the steps provided, and you'll have your account ready in no time. If you encounter any issues, feel free to ask for help."]
+      },
+      {
+        "tag": "productcomparison",
+        "patterns": ["How can I compare products?", "Is there a way to compare different products?", "Can you help me compare the features of two items?"],
+        "responses": ["Certainly! To compare products, you can use our website's product comparison feature. Simply select the items you want to compare and click on the 'Compare' button. It will display a side-by-side comparison of their features, specifications, and pricing.", "Absolutely! Our website offers a convenient product comparison tool. Just select the products you're interested in and click on the 'Compare' button. You'll be able to see a detailed comparison of their features, benefits, and prices."]
+      },
+      {
+        "tag": "ordercancellation",
+        "patterns": ["Can I cancel my order?", "How do I request an order cancellation?", "Is it possible to cancel my order before it ships?"],
+        "responses": ["Yes, you can cancel your order as long as it hasn't been shipped yet. To request an order cancellation, please reach out to our customer support with your order details. They will assist you in the cancellation process.", "If your order hasn't been shipped yet, you can cancel it. Please contact our customer support team as soon as possible with your order details, and they will guide you through the order cancellation process."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like today?", "Will it rain tomorrow?", "Can you give me a weather update?"],
+        "responses": ["I apologize, but I am not equipped to provide weather updates. I recommend checking a reliable weather website or using a weather app for accurate information.", "Unfortunately, I don't have access to real-time weather data. I suggest checking a trusted weather source or using a weather app to get the most up-to-date information."]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Do you know any jokes?", "I could use a laugh"],
+        "responses": ["Sure, here's a joke for you: Why don't scientists trust atoms? Because they make up everything!", "Certainly! Here's a joke: Why did the scarecrow win an award? Because he was outstanding in his field!", "Sure, here's a lighthearted joke for you: Why don't skeletons fight each other? They don't have the guts!"]
+      }
+
+
+
+
+
+]
+}
