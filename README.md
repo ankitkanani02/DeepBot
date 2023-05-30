@@ -122,27 +122,21 @@ git clone https://github.com/your-username/deepbot.git
 cd deepbot
 ```
 
-3. Install the required dependencies (assuming you have Python and pip installed):
-
-```shell
-pip install -r requirements.txt
-```
-
-4. Run the training code to train the chatbot model:
+3. Run the training code to train the chatbot model:
 
 ```shell
 python train.py
 ```
 
-5. Once the training is complete, you can now run the chatbot code to interact with the DeepBot chatbot:
+4. Once the training is complete, you can now run the chatbot code to interact with the DeepBot chatbot:
 
 ```shell
 python chatbot.py
 ```
 
-6. The chatbot will prompt you for input. Type your message and press Enter. The chatbot will process your input and generate an appropriate response based on the predicted intent.
+5. The chatbot will prompt you for input. Type your message and press Enter. The chatbot will process your input and generate an appropriate response based on the predicted intent.
 
-7. To quit the chatbot, simply type "quit" and press Enter.
+
 
 ## Contributing
 Contributions to the DeepBot project are welcome! If you would like to contribute, please follow these steps:
